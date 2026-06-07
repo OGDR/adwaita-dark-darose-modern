@@ -1,4 +1,7 @@
 [Desktop Entry]
-Name=Adwaita-dark-darose-modern
+Name=Adwaita Dark Darose Modern
 Comment=Modern Adwaita Dark fork with blue accent
 Type=X-GNOME-Metatheme
+
+[X-Gnome-Metatheme]
+GtkTheme=adwaita-dark-darose-modern
