@@ -22,4 +22,4 @@ cp -r "$PWD/$THEME_NAME" "$THEME_DIR/"
 
 echo ""
 echo "Installed successfully!"
-echo "Select it in XFCE → Appearance → Style"
+echo "If XFCE select theme in XFCE → Appearance → Style"
