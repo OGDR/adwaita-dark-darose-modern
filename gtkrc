@@ -1,0 +1,21 @@
+gtk-color-scheme = "bg_color:#181c28\nfg_color:#eeeeec\nbase_color:#101420\ntext_color:#eeeeec\nselected_bg_color:#566b96\nselected_fg_color:#ffffff"
+
+style "core" {
+
+    bg[NORMAL] = "#181c28"
+    fg[NORMAL] = "#eeeeec"
+
+    bg[PRELIGHT] = "#1a1e2c"
+    fg[PRELIGHT] = "#eeeeec"
+
+    bg[ACTIVE] = "#566b96"
+    fg[ACTIVE] = "#ffffff"
+
+    bg[SELECTED] = "#566b96"
+    fg[SELECTED] = "#ffffff"
+
+    base[NORMAL] = "#101420"
+    text[NORMAL] = "#eeeeec"
+}
+
+class "*" style "core"
