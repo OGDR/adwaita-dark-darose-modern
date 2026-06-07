@@ -7,19 +7,18 @@ url="https://github.com/OGDR/adwaita-dark-darose-modern"
 license=('GPL3')
 
 depends=('gnome-themes-extra')
-makedepends=('git')
 optdepends=('gtk2-ng-git: GTK2 engine support for legacy apps')
 
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
 package() {
-    cd "$srcdir/adwaita-dark-darose-modern"
+    cd "$srcdir/$pkgname"
 
     install -dm755 "$pkgdir/usr/share/themes/$pkgname"
 
-    cp -r gtk-2.0 gtk-3.0 index.theme install.sh \
+    cp -r gtk-2.0 gtk-3.0 index.theme \
         "$pkgdir/usr/share/themes/$pkgname/"
 
-    chmod +x "$pkgdir/usr/share/themes/$pkgname/install.sh"
+    
 }
