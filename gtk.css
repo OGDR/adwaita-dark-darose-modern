@@ -1,10 +1,56 @@
 @import url("gtk-colors.css");
 
-window {
+/* ===== GLOBAL ===== */
+window,
+dialog,
+headerbar,
+menubar,
+toolbar {
     background-color: #181c28;
     color: #eeeeec;
 }
 
+/* ===== TEXT ===== */
 * {
     color: #eeeeec;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    background-color: #1a1e2c;
+    color: #eeeeec;
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+}
+
+button:hover {
+    background-color: #566b96;
+}
+
+button:active {
+    background-color: #455a82;
+}
+
+/* ===== INPUTS ===== */
+entry {
+    background-color: #101420;
+    color: #eeeeec;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+/* ===== SELECTION ===== */
+selection {
+    background-color: #566b96;
+    color: #ffffff;
+}
+
+/* ===== SCROLLBARS (basic but stable) ===== */
+scrollbar {
+    background-color: #101420;
+}
+
+scrollbar slider {
+    background-color: #1a1e2c;
 }
