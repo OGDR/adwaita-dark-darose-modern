@@ -1,0 +1,23 @@
+@define-color theme_bg_color #181c28;
+@define-color theme_base_color #101420;
+@define-color theme_fg_color #eeeeec;
+
+@define-color theme_selected_bg_color #566b96;
+@define-color theme_selected_fg_color #ffffff;
+
+/* Buttons */
+button {
+    background-color: #1a1e2c;
+    border-radius: 6px;
+}
+
+/* Entries */
+entry {
+    background-color: #101420;
+}
+
+/* Selection */
+selection {
+    background-color: #566b96;
+    color: white;
+}

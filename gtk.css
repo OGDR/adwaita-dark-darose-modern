@@ -1,0 +1,10 @@
+@import url("gtk-colors.css");
+
+window {
+    background-color: #181c28;
+    color: #eeeeec;
+}
+
+* {
+    color: #eeeeec;
+}
