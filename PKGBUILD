@@ -3,7 +3,7 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Modern Adwaita Dark fork with blue accent (XFCE/GTK2+GTK3)"
 arch=('any')
-url="https://github.com/YOURNAME/adwaita-dark-darose-modern"
+url="https://github.com/OGDR/adwaita-dark-darose-modern"
 license=('GPL3')
 
 depends=('gnome-themes-extra')
